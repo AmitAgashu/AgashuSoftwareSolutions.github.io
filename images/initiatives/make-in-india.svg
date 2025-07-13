@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="100" viewBox="0 0 200 100">
+  <rect width="200" height="100" fill="#ffffff"/>
+  <path d="M30,60 C30,50 40,30 50,30 C60,30 60,50 70,30 C80,10 90,50 100,30" stroke="#FF9933" stroke-width="4" fill="none"/>
+  <text x="100" y="70" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#000080">Make in India</text>
+</svg>

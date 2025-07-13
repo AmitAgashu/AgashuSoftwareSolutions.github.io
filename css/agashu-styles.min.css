@@ -468,3 +468,110 @@ section {
     transform: rotate(45deg) translate(10px, 10px);
   }
 }
+
+/* === Initiatives Section === */
+#initiatives {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 100px 0;
+  position: relative;
+}
+
+#initiatives:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('../images/about-img.jpg') center center;
+  background-size: cover;
+  opacity: 0.05;
+  z-index: -1;
+}
+
+.initiative-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.initiative-row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.initiative-box {
+  background: white;
+  border-radius: 10px;
+  padding: 40px 30px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.initiative-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+
+.initiative-box:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(45deg, #ff9d00, #cf2e2e);
+}
+
+.initiative-box h3,
+.initiative-box p {
+  color: #333333 !important;
+  text-shadow: none !important;
+}
+
+.initiative-box h3 {
+  margin-top: 25px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.initiative-logo {
+  text-align: center;
+  margin-bottom: 20px;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.initiative-logo img {
+  max-width: 200px;
+  max-height: 100px;
+}
+
+.initiative-box hr {
+  width: 60px;
+  border-color: #ff9d00;
+  margin-left: 0;
+}
+
+.initiative-box .btn {
+  margin-top: auto;
+  padding: 10px 20px;
+  background: linear-gradient(45deg, #ff9d00, #cf2e2e);
+  color: white;
+  border: none;
+  transition: all 0.3s ease;
+  align-self: flex-start;
+}
+
+.initiative-box .btn:hover {
+  background: linear-gradient(45deg, #cf2e2e, #ff9d00);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(207, 46, 46, 0.3);
+}
