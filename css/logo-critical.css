@@ -1,0 +1,48 @@
+/* Critical logo styles that work independently of other CSS files */
+.logo-link {
+  display: block !important;
+  padding: 8px 12px !important;
+  margin: 5px !important;
+  background-color: #ffffff !important;
+  border-radius: 5px !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) !important;
+  max-width: 200px !important;
+  position: relative !important;
+  z-index: 10000 !important;
+}
+
+.logo-image {
+  max-height: 50px !important;
+  max-width: 180px !important;
+  display: block !important;
+  margin: 0 !important;
+  filter: contrast(1.2) !important;
+}
+
+.logo-image-small {
+  max-height: 40px !important;
+  max-width: 150px !important;
+  display: none !important; /* Initially hidden, JS will show if needed */
+}
+
+.logo-text-fallback {
+  display: none !important; /* Initially hidden, JS will show if needed */
+  padding: 5px !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  line-height: 1.2 !important;
+}
+
+/* Force parent container visibility */
+.navbar-header {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  min-height: 60px !important;
+}
+
+.custom-navbar {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  background: #ffffff !important;
+}

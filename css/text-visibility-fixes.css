@@ -1,0 +1,102 @@
+/* Text visibility fixes for the entire site */
+
+/* Make all section titles visible with better contrast */
+.section-title strong {
+  color: #ffffff !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3) !important;
+}
+
+.section-title .heading {
+  color: #ffffff !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3) !important;
+}
+
+.section-title hr {
+  border-color: rgba(255,255,255,0.5) !important;
+}
+
+/* Fix contact form text */
+#contact p, 
+#contact h2, 
+#contact h3,
+#contact .icon-envelope,
+#contact .icon-phone {
+  color: #ffffff !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2) !important;
+}
+
+/* Make form inputs more visible */
+#contact input, 
+#contact textarea {
+  background-color: rgba(255,255,255,0.9) !important;
+  color: #333333 !important;
+  border: 1px solid rgba(255,255,255,0.5) !important;
+}
+
+/* Fix portfolio filter links */
+.filter-wrapper li a {
+  color: #ffffff !important;
+  opacity: 1 !important;
+  font-weight: bold !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2) !important;
+}
+
+.filter-wrapper li a:hover,
+.filter-wrapper li a.selected {
+  background-color: rgba(255,255,255,0.2) !important;
+  color: #ffffff !important;
+}
+
+/* Fix footer text */
+footer p {
+  color: #ffffff !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2) !important;
+}
+
+/* Fix section content text */
+section p, 
+section h1, 
+section h2, 
+section h3, 
+section h4, 
+section h5, 
+section h6 {
+  color: #ffffff !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2) !important;
+}
+
+/* Special case for service boxes which should remain white bg with dark text */
+.service-box {
+  background-color: white !important;
+}
+
+.service-box h3,
+.service-box p,
+.service-box .service-number,
+.service-box i {
+  color: #333333 !important;
+  text-shadow: none !important;
+}
+
+/* Ensure all link text is visible */
+a {
+  color: #ffffff !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2) !important;
+}
+
+/* Exception for service boxes links */
+.service-box a {
+  color: #667eea !important;
+  text-shadow: none !important;
+}
+
+/* Fix navigation color for mobile */
+@media (max-width: 767px) {
+  .navbar-collapse {
+    background-color: #667eea !important;
+  }
+  
+  .navbar-collapse a {
+    color: #ffffff !important;
+  }
+}

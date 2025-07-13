@@ -2,26 +2,46 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>AgaShu Softech Solutions</title>
+	<title>AgaShu Softech Solutions - Modern Digital Solutions</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="">
-	<meta name="description" content="">
+	<meta name="keywords" content="web design, mobile app development, UI/UX design, e-commerce, software solutions, digital agency, responsive design">
+	<meta name="description" content="AgaShu Softech Solutions - Leading digital agency providing modern web design, mobile app development, UI/UX design, and e-commerce solutions. Transform your ideas into digital excellence.">
+	<meta name="author" content="AgaShu Softech Solutions">
+	<meta name="theme-color" content="#667eea">
 	
+	<!-- Open Graph Meta Tags -->
+	<meta property="og:title" content="AgaShu Softech Solutions - Modern Digital Solutions">
+	<meta property="og:description" content="Leading digital agency providing modern web design, mobile app development, UI/UX design, and e-commerce solutions.">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="images/LogoUsed.png">
+	
+	<!-- Twitter Card Meta Tags -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="AgaShu Softech Solutions">
+	<meta name="twitter:description" content="Modern digital solutions for your business">
+	
+	<!-- Essential CSS files only -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="css/et-line-font.css">
 	<link rel="stylesheet" href="css/nivo-lightbox.css">
-	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap' rel='stylesheet'>
+	<!-- Consolidated CSS -->
+	<link rel="stylesheet" href="css/agashu-styles.min.css">
+	
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="images/LogoUsed.png">
+	
+	<!-- All styles now moved to external CSS file -->
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
 <!-- preloader section -->
 <div class="preloader">
-	<div class="sk-spinner sk-spinner-circle">
+    <div class="sk-spinner sk-spinner-circle">
        <div class="sk-circle1 sk-circle"></div>
        <div class="sk-circle2 sk-circle"></div>
        <div class="sk-circle3 sk-circle"></div>
@@ -46,17 +66,17 @@
 				<span class="icon icon-bar"></span>
 				<span class="icon icon-bar"></span>
 			</button>
-			<a href="#"><img src="images/LogoUsed.png" alt="about img" height="50" aria-hidden="true"></a>
-			<!-- <p class="smoothScroll">Empowering Your Digital Potential</p> -->
+			<!-- Image logo with transparent background -->
+			<a href="#" class="logo-link">
+				<img src="images/LogoUsed.png" alt="AgaShu Softech Solutions" />
+			</a>
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="#home" class="smoothScroll">HOME</a></li>
 				<li><a href="#work" class="smoothScroll">WORK</a></li>
 				<li><a href="#about" class="smoothScroll">ABOUT</a></li>
-				<li><a href="#team" class="smoothScroll">TEAM</a></li>
 				<li><a href="#portfolio" class="smoothScroll">PORTFOLIO</a></li>
-				<li><a href="#pricing" class="smoothScroll">PRICING</a></li>
 				<li><a href="#contact" class="smoothScroll">CONTACT</a></li>
 			</ul>
 		</div>
@@ -68,12 +88,30 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12">
-				<h3>WEB DESIGN / Android/iOS DEVELOPMENT / SOCIAL MEDIA</h3>
-				<hr>
-				<a href="#work" class="smoothScroll btn btn-danger">What we do</a>
-				<a href="#contact" class="smoothScroll btn btn-default">Talk to us</a>
+				<div class="hero-content">
+					<h3 class="animated-text">WEB DESIGN / Android/iOS DEVELOPMENT / SOCIAL MEDIA</h3>
+					<p class="hero-subtitle">Transforming Ideas into Digital Excellence</p>
+					<hr>
+					<div class="hero-buttons">
+						<a href="#work" class="smoothScroll btn btn-danger btn-lg">
+							<i class="fa fa-rocket"></i> What we do
+						</a>
+						<a href="#contact" class="smoothScroll btn btn-default btn-lg">
+							<i class="fa fa-comments"></i> Talk to us
+						</a>
+					</div>
+				</div>
 			</div>
 		</div>
+	</div>
+	<div class="scroll-indicator">
+		<a href="#work" class="smoothScroll">
+			<div class="scroll-down">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</a>
 	</div>		
 </section>
 
@@ -83,48 +121,80 @@
 		<div class="row">
 			<div class="col-md-12 col-sm-12">
 				<div class="section-title">
-					<strong>01</strong>
+					<strong>02</strong>
 					<h1 class="heading bold">WHAT WE DO</h1>
 					<hr>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
-				<i class="icon-cloud medium-icon"></i>
+		</div>
+		<div class="row service-row">
+			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp service-card" data-wow-delay="0.6s">
+				<div class="service-box">
+					<div class="service-icon-wrapper">
+						<i class="icon-cloud medium-icon"></i>
+					</div>
 					<h3>WEB Designing</h3>
 					<hr>
 					<p>We use a variety of different tools depending on what part of the production process they are involved in. These tools are updated over time by newer standards and software but the principles behind them remain the same. Web designers use both vector and raster graphics editors to create web-formatted imagery or design prototypes.</p>
+					<div class="service-number">01</div>
+				</div>
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.9s">
-				<i class="icon-mobile medium-icon"></i>
+			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp service-card" data-wow-delay="0.9s">
+				<div class="service-box">
+					<div class="service-icon-wrapper">
+						<i class="icon-mobile medium-icon"></i>
+					</div>
 					<h3>UI &amp; UX DESIGN</h3>
 					<hr>
 					<p>Focuses on the look, feel, and interactivity of a product's screen or web page. UI designers create visually appealing interfaces and decide how features function, such as which interactions they need and how they look. 
 						User experience (UX) design
 						Focuses on the user's overall experience with a product or website.</p>
+					<div class="service-number">02</div>
+				</div>
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
-				<i class="icon-laptop medium-icon"></i>
+			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp service-card" data-wow-delay="1s">
+				<div class="service-box">
+					<div class="service-icon-wrapper">
+						<i class="icon-laptop medium-icon"></i>
+					</div>
 					<h3>ECOMMERCE</h3>
 					<hr>
 					<p>Create online platform that allows businesses or individuals to sell products and services directly to consumers over the internet. These websites facilitate the buying and selling process, often integrating features to enhance user experience, streamline transactions, and manage business operations </p>
+					<div class="service-number">03</div>
+				</div>
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
-				<i class="icon-compass medium-icon"></i>
+			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp service-card" data-wow-delay="1.3s">
+				<div class="service-box">
+					<div class="service-icon-wrapper">
+						<i class="icon-compass medium-icon"></i>
+					</div>
 					<h3>MOBILE APP</h3>
 					<hr>
 					<p>We use the process of creating software for mobile devices, such as tablets and smartphones. It involves writing code and designing the app. The process is similar to other software development, but mobile apps can use a device's native features, such as the camera, microphone, Bluetooth, and GPS.</p>
+					<div class="service-number">04</div>
+				</div>
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
-				<i class="icon-chat medium-icon"></i>
+			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp service-card" data-wow-delay="1.6s">
+				<div class="service-box">
+					<div class="service-icon-wrapper">
+						<i class="icon-chat medium-icon"></i>
+					</div>
 					<h3>SOCIAL MEDIA</h3>
 					<hr>
 					<p>Create online platforms and tools that enable people to create, share, and exchange content, information, and ideas with others. These platforms facilitate communication, networking, and engagement in real-time, often connecting individuals, groups, or businesses across the globe.</p>
+					<div class="service-number">05</div>
+				</div>
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
-				<i class="icon-browser medium-icon"></i>
+			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp service-card" data-wow-delay="1.9s">
+				<div class="service-box">
+					<div class="service-icon-wrapper">
+						<i class="icon-browser medium-icon"></i>
+					</div>
 					<h3>RESPONSIVE LAYOUT</h3>
 					<hr>
 					<p>Agashu Team develop design that adapts seamlessly to different screen sizes and devices, ensuring an optimal user experience. Whether viewed on a desktop computer, tablet, or smartphone, the website's layout, images, and functionality adjust to suit the specific screen dimensions.</p>
+					<div class="service-number">06</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -136,7 +206,7 @@
 		<div class="row">
 			<div class="col-md-12 col-sm-12 text-center">
 				<div class="section-title">
-					<strong>02</strong>
+					<strong>03</strong>
 					<h1 class="heading bold">OUR AGENCY</h1>
 					<hr>
 				</div>
@@ -174,81 +244,6 @@
 	</div>
 </section>
 
-<!-- team section -->
-<section id="team">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<div class="section-title">
-					<strong>03</strong>
-					<h1 class="heading bold">TALENTED TEAM</h1>
-					<hr>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="0.9s">
-				<div class="team-wrapper">
-					<img src="images/Consultant1.jpg" class="img-responsive" alt="team img">
-						<div class="team-des">
-							<h4>Mr. Singh</h4>
-							<h3>Director</h3>
-							<hr>
-							<ul class="social-icon">
-								<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
-								<li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
-								<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>
-							</ul>
-						</div>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="1.3s">
-				<div class="team-wrapper">
-					<img src="images/Consultant2.jpg" class="img-responsive" alt="team img">
-						<div class="team-des">
-							<h4>Mr. Pandey</h4>
-							<h3>Director</h3>
-							<hr>
-							<ul class="social-icon">
-								<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
-								<li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
-								<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>
-							</ul>
-						</div>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="1.6s">
-				<div class="team-wrapper">
-					<img src="images/Consultant3.jpg" class="img-responsive" alt="team img">
-						<div class="team-des">
-							<h4>Mr. Rahul</h4>
-							<h3>CEO</h3>
-							<hr>
-							<ul class="social-icon">
-								<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
-								<li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
-								<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>
-							</ul>
-						</div>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="1.6s">
-				<div class="team-wrapper">
-					<img src="images/Consultant4.png" class="img-responsive" alt="team img">
-						<div class="team-des">
-							<h4>Mr. Vipul Raaz</h4>
-							<h3>CTO</h3>
-							<hr>
-							<ul class="social-icon">
-								<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
-								<li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
-								<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>
-							</ul>
-						</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
 <!-- portfolio section -->
 <div id="portfolio">
 	<div class="container">
@@ -262,37 +257,109 @@
 				<!-- ISO section -->
 				<div class="iso-section">
 					<ul class="filter-wrapper clearfix">
-                   		 <li><a href="#" data-filter="*" class="selected opc-main-bg">All</a></li>
-                   		 <li><a href="#" class="opc-main-bg" data-filter=".html">HTML</a></li>
-                   		 <li><a href="#" class="opc-main-bg" data-filter=".photoshop">Photoshop</a></li>
-                    	 <li><a href="#" class="opc-main-bg" data-filter=".wordpress">Wordpress</a></li>
-                    	 <li><a href="#" class="opc-main-bg" data-filter=".mobile">Mobile</a></li>
+                   		 <li><a href="#" data-filter="*" class="selected">All</a></li>
+                   		 <li><a href="#" data-filter=".web">Web Design</a></li>
+                   		 <li><a href="#" data-filter=".mobile">Mobile Apps</a></li>
+                    	 <li><a href="#" data-filter=".ecommerce">E-commerce</a></li>
+                    	 <li><a href="#" data-filter=".ui">UI/UX</a></li>
                		</ul>
                		<div class="iso-box-section wow fadeIn" data-wow-delay="0.9s">
                			<div class="iso-box-wrapper col4-iso-box">
 
-               				 <div class="iso-box html wordpress mobile col-lg-4 col-md-4 col-sm-6">
-               				 	<a href="images/portfolio-img1.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img1.jpg" alt="portfolio img"></a>
+               				 <div class="iso-box web ecommerce col-lg-4 col-md-4 col-sm-6">
+               				 	<div class="portfolio-item">
+               				 		<a href="images/portfolio-img1.jpg" data-lightbox-gallery="portfolio-gallery">
+               				 			<img src="images/portfolio-img1.jpg" alt="E-commerce Website">
+               				 			<div class="portfolio-overlay">
+               				 				<h3>E-commerce Platform</h3>
+               				 				<p>Modern online shopping experience with secure payment integration</p>
+               				 			</div>
+               				 		</a>
+               				 	</div>
                				 </div>
 
-               				 <div class="iso-box wordpress col-lg-4 col-md-4 col-sm-6">
-               				 	<a href="images/portfolio-img2.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img2.jpg" alt="portfolio img"></a>
+               				 <div class="iso-box mobile col-lg-4 col-md-4 col-sm-6">
+               				 	<div class="portfolio-item">
+               				 		<a href="images/portfolio-img2.jpg" data-lightbox-gallery="portfolio-gallery">
+               				 			<img src="images/portfolio-img2.jpg" alt="Mobile App">
+               				 			<div class="portfolio-overlay">
+               				 				<h3>Mobile Banking App</h3>
+               				 				<p>Secure and user-friendly banking application for iOS and Android</p>
+               				 			</div>
+               				 		</a>
+               				 	</div>
                				 </div>
 
-               				 <div class="iso-box html mobile col-lg-4 col-md-4 col-sm-6">
-               				 	<a href="images/portfolio-img3.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img3.jpg" alt="portfolio img"></a>
+               				 <div class="iso-box web ui col-lg-4 col-md-4 col-sm-6">
+               				 	<div class="portfolio-item">
+               				 		<a href="images/portfolio-img3.jpg" data-lightbox-gallery="portfolio-gallery">
+               				 			<img src="images/portfolio-img3.jpg" alt="Corporate Website">
+               				 			<div class="portfolio-overlay">
+               				 				<h3>Corporate Website</h3>
+               				 				<p>Professional business website with modern design and responsive layout</p>
+               				 			</div>
+               				 		</a>
+               				 	</div>
                				 </div>
 
-               				 <div class="iso-box wordpress col-lg-4 col-md-4 col-sm-6">
-               				 	<a href="images/portfolio-img4.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img4.jpg" alt="portfolio img"></a>
+               				 <div class="iso-box mobile ui col-lg-4 col-md-4 col-sm-6">
+               				 	<div class="portfolio-item">
+               				 		<a href="images/portfolio-img4.jpg" data-lightbox-gallery="portfolio-gallery">
+               				 			<img src="images/portfolio-img4.jpg" alt="Food Delivery App">
+               				 			<div class="portfolio-overlay">
+               				 				<h3>Food Delivery App</h3>
+               				 				<p>On-demand food ordering app with real-time tracking</p>
+               				 			</div>
+               				 		</a>
+               				 	</div>
                				 </div>
 
-               				 <div class="iso-box html photoshop col-lg-4 col-md-4 col-sm-6">
-               				 	<a href="images/portfolio-img5.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img5.jpg" alt="portfolio img"></a>
+               				 <div class="iso-box web ecommerce col-lg-4 col-md-4 col-sm-6">
+               				 	<div class="portfolio-item">
+               				 		<a href="images/portfolio-img5.jpg" data-lightbox-gallery="portfolio-gallery">
+               				 			<img src="images/portfolio-img5.jpg" alt="Fashion Store">
+               				 			<div class="portfolio-overlay">
+               				 				<h3>Fashion E-store</h3>
+               				 				<p>Trendy online fashion store with advanced filtering and wishlist features</p>
+               				 			</div>
+               				 		</a>
+               				 	</div>
                				 </div>
 
-               				 <div class="iso-box photoshop col-lg-4 col-md-4 col-sm-6">
-               				 	<a href="images/portfolio-img6.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img6.jpg" alt="portfolio img"></a>
+               				 <div class="iso-box ui web col-lg-4 col-md-4 col-sm-6">
+               				 	<div class="portfolio-item">
+               				 		<a href="images/portfolio-img6.jpg" data-lightbox-gallery="portfolio-gallery">
+               				 			<img src="images/portfolio-img6.jpg" alt="Portfolio Website">
+               				 			<div class="portfolio-overlay">
+               				 				<h3>Creative Portfolio</h3>
+               				 				<p>Stunning portfolio website for creative professionals</p>
+               				 			</div>
+               				 		</a>
+               				 	</div>
+               				 </div>
+
+               				 <div class="iso-box mobile col-lg-4 col-md-4 col-sm-6">
+               				 	<div class="portfolio-item">
+               				 		<a href="images/portfolio-img7.jpg" data-lightbox-gallery="portfolio-gallery">
+               				 			<img src="images/portfolio-img7.jpg" alt="Health App">
+               				 			<div class="portfolio-overlay">
+               				 				<h3>Health & Fitness App</h3>
+               				 				<p>Comprehensive health tracking app with workout plans and nutrition guide</p>
+               				 			</div>
+               				 		</a>
+               				 	</div>
+               				 </div>
+
+               				 <div class="iso-box web ecommerce col-lg-4 col-md-4 col-sm-6">
+               				 	<div class="portfolio-item">
+               				 		<a href="images/portfolio-img8.jpg" data-lightbox-gallery="portfolio-gallery">
+               				 			<img src="images/portfolio-img8.jpg" alt="Travel Booking">
+               				 			<div class="portfolio-overlay">
+               				 				<h3>Travel Booking Platform</h3>
+               				 				<p>Complete travel solution with booking, reviews, and itinerary planning</p>
+               				 			</div>
+               				 		</a>
+               				 	</div>
                				 </div>
 
                			</div>
@@ -304,105 +371,42 @@
 	</div>
 </div>		
 
-<!-- pricing section -->
-<section id="pricing">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12 text-center">
-				<div class="section-title">
-					<strong>05</strong>
-					<h1 class="heading bold">OUR PRICING</h1>
-					<hr>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<div class="plan plan-one wow bounceIn" data-wow-delay="0.3s">
-					<div class="plan_title">
-						<i class="icon-mobile medium-icon"></i>
-						<h3>Basic</h3>
-						<h2>$100<span>per aplication</span></h2>
-					</div>
-					<ul>
-                    	<li>100 GB Cloud Storage</li>
-						<li>5 Pro Websites</li>
-						<li>10 Secured Emails</li>
-                        <li>24-hour Support</li>
-					</ul>
-					<button class="btn btn-warning">Get it now</button>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<div class="plan plan-two wow bounceIn" data-wow-delay="0.3s">
-					<div class="plan_title">
-						<i class="icon-desktop medium-icon"></i>
-						<h3>BUSINESS</h3>
-						<h2>$260 <span>per year</span></h2>
-					</div>
-					<ul>
-						<li>200 GB Cloud Storage</li>
-						<li>10 Pro Websites</li>
-						<li>20 Secured Emails</li>
-                        <li>30-Minute Support</li>
-					</ul>
-					<button class="btn btn-warning">Take this!</button>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<div class="plan plan-three wow bounceIn" data-wow-delay="0.3s">
-					<div class="plan_title">
-						<i class="icon-cloud medium-icon"></i>
-						<h3>PROFESSIONAL</h3>
-						<h2>$380 <span>per year</span></h2>
-					</div>
-					<ul>
-						<li>500 GB Cloud Storage</li>
-						<li>20 Pro Websites</li>
-						<li>40 Secured Emails</li>
-                        <li>Live Support</li>
-					</ul>
-					<button class="btn btn-warning">Buy Now</button>
-				</div>
-			</div>
-		</div>
-	</div>		
-</section>
-
 <!-- contact section -->
 <section id="contact">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12 text-center">
 				<div class="section-title">
-					<strong>06</strong>
-					<h1 class="heading bold">CONTACT US</h1>
-					<hr>
+					<strong style="color: #ffffff; text-shadow: 0 2px 4px rgba(0,0,0,0.3);">05</strong>
+					<h1 class="heading bold" style="color: #ffffff; text-shadow: 0 2px 4px rgba(0,0,0,0.3);">CONTACT US</h1>
+					<hr style="border-color: rgba(255,255,255,0.5);">
 				</div>
 			</div>
 			<div class="col-md-6 col-sm-12 contact-info">
-				<h2 class="heading bold">CONTACT INFO</h2>
-				<p>Add - B 119, Sector 2, Noida, 201301 Uttar Pradesh, India</p>
+				<h2 class="heading bold" style="color: #ffffff;">CONTACT INFO</h2>
+				<p style="color: #ffffff; font-size: 16px; text-shadow: 0 1px 2px rgba(0,0,0,0.2);">Add - B 119, Sector 2, Noida, 201301 Uttar Pradesh, India</p>
 				<div class="col-md-6 col-sm-4">
-					<h3><i class="icon-envelope medium-icon wow bounceIn" data-wow-delay="0.6s"></i> EMAIL</h3>
-					<p>agashu@co.in</p>
+					<h3 style="color: #ffffff;"><i class="icon-envelope medium-icon wow bounceIn" data-wow-delay="0.6s" style="color: #ffffff;"></i> EMAIL</h3>
+					<p style="color: #ffffff; font-size: 16px; text-shadow: 0 1px 2px rgba(0,0,0,0.2);">agashu@co.in</p>
 				</div>
 				<div class="col-md-6 col-sm-4">
-					<h3><i class="icon-phone medium-icon wow bounceIn" data-wow-delay="0.6s"></i> PHONES</h3>
-					<p>+91 817-8140-075 | +91 638-6911-280</p>
+					<h3 style="color: #ffffff;"><i class="icon-phone medium-icon wow bounceIn" data-wow-delay="0.6s" style="color: #ffffff;"></i> PHONES</h3>
+					<p style="color: #ffffff; font-size: 16px; text-shadow: 0 1px 2px rgba(0,0,0,0.2);">+91 817-8140-075 | +91 638-6911-280</p>
 				</div>
 			</div>
 			<div class="col-md-6 col-sm-12">
 				<form action="#" method="get" class="wow fadeInUp" data-wow-delay="0.6s">
 					<div class="col-md-6 col-sm-6">
-						<input type="text" class="form-control" placeholder="Name" name="name">
+						<input type="text" class="form-control" placeholder="Name" name="name" style="background-color: rgba(255,255,255,0.9); color: #333; border: 1px solid rgba(255,255,255,0.5);">
 					</div>
 					<div class="col-md-6 col-sm-6">
-						<input type="email" class="form-control" placeholder="Email" name="email">
+						<input type="email" class="form-control" placeholder="Email" name="email" style="background-color: rgba(255,255,255,0.9); color: #333; border: 1px solid rgba(255,255,255,0.5);">
 					</div>
 					<div class="col-md-12 col-sm-12">
-						<textarea class="form-control" placeholder="Message" rows="7" name="message"></textarea>
+						<textarea class="form-control" placeholder="Message" rows="7" name="message" style="background-color: rgba(255,255,255,0.9); color: #333; border: 1px solid rgba(255,255,255,0.5); margin-top: 15px;"></textarea>
 					</div>
 					<div class="col-md-offset-4 col-md-8 col-sm-offset-4 col-sm-8">
-						<input type="submit" class="form-control" value="SEND MESSAGE">
+						<input type="submit" class="form-control" value="SEND MESSAGE" style="background-color: #667eea; color: white; font-weight: bold; margin-top: 15px; border: none; text-shadow: 0 1px 2px rgba(0,0,0,0.2);">
 					</div>
 				</form>
 			</div>
@@ -415,14 +419,14 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12">
-				<p>Copyright © Agashu Softech Solutions</p>
-				<hr>
-				<ul class="social-icon">
-					<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
-					<li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
-					<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>
-					<li><a href="#" class="fa fa-behance wow fadeIn" data-wow-delay="0.9s"></a></li>
-					<li><a href="#" class="fa fa-tumblr wow fadeIn" data-wow-delay="0.9s"></a></li>
+				<p style="color: #ffffff; text-shadow: 0 1px 2px rgba(0,0,0,0.2);">Copyright © Agashu Softech Solutions</p>
+				<hr style="border-color: rgba(255,255,255,0.5);">
+				<ul class="social-icon" style="display: flex; justify-content: center; margin: 20px auto; padding: 0; list-style: none;">
+					<li style="display: inline-block; margin: 0 10px;"><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s" style="display: block; width: 40px; height: 40px; line-height: 40px; text-align: center; border-radius: 50%; background: linear-gradient(45deg, #667eea, #764ba2); color: white;"></a></li>
+					<li style="display: inline-block; margin: 0 10px;"><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s" style="display: block; width: 40px; height: 40px; line-height: 40px; text-align: center; border-radius: 50%; background: linear-gradient(45deg, #667eea, #764ba2); color: white;"></a></li>
+					<li style="display: inline-block; margin: 0 10px;"><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s" style="display: block; width: 40px; height: 40px; line-height: 40px; text-align: center; border-radius: 50%; background: linear-gradient(45deg, #667eea, #764ba2); color: white;"></a></li>
+					<li style="display: inline-block; margin: 0 10px;"><a href="#" class="fa fa-behance wow fadeIn" data-wow-delay="0.9s" style="display: block; width: 40px; height: 40px; line-height: 40px; text-align: center; border-radius: 50%; background: linear-gradient(45deg, #667eea, #764ba2); color: white;"></a></li>
+					<li style="display: inline-block; margin: 0 10px;"><a href="#" class="fa fa-tumblr wow fadeIn" data-wow-delay="0.9s" style="display: block; width: 40px; height: 40px; line-height: 40px; text-align: center; border-radius: 50%; background: linear-gradient(45deg, #667eea, #764ba2); color: white;"></a></li>
 				</ul>
 			</div>
 		</div>
@@ -430,15 +434,15 @@
 </footer>
 
 
+<!-- Essential JavaScript files only -->
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/smoothscroll.js"></script>
 <script src="js/isotope.js"></script>
 <script src="js/imagesloaded.min.js"></script>
 <script src="js/nivo-lightbox.min.js"></script>
-<script src="js/jquery.backstretch.min.js"></script>
 <script src="js/wow.min.js"></script>
-<script src="js/custom.js"></script>
+<!-- Consolidated JavaScript -->
+<script src="js/agashu-scripts.min.js"></script>
 
 </body>
 </html>
